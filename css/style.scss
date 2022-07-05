@@ -4,12 +4,14 @@
 $primary-font: 'Songti SC';
 $heading-font: 'Songti SC', 'Prompt', sans-serif;
 $bg-black: #1C1C1C;
+$bg-grey: #F8F9FA;
 $dark-blue: #1D3557;
 $dark-orange: #BC6C25;
 $link-bl: #283618;
 $desktop-page-sp: 100px;
 $container-padding-sm: 24px;
 $container-padding-lg: 96px;
+$nav-bar-height: 48px;
 
 * {
   padding: 0;
@@ -25,12 +27,11 @@ html, body {
 }
 
 footer {
-  background: $bg-black;
+  background: $bg-grey;
   min-height: 200px;
   flex-shrink: 0;
   justify-content: center;
   padding: 20px;
-  border: 1px solid black;
 }
 
 h1 {
@@ -54,7 +55,7 @@ a, a:visited {
 }
 
 a:hover {
-  opacity: 0.5;
+  color: #c30023;
 }
 
 .container {
@@ -74,6 +75,7 @@ a:hover {
 }
 
 .main-content {
+  margin-top: 30px;
   flex: 1;
 }
 
@@ -96,7 +98,6 @@ a:hover {
   font-family: $heading-font;
 }
 
-
 /* Hero section */
 .hero {
   display: flex;
@@ -104,7 +105,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 100vw;
+  margin-bottom: 40px;
 
   &__header {
     font-weight: bold;
@@ -130,6 +131,7 @@ a:hover {
 }
 
 .top-nav {
+  overflow: hidden;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -181,11 +183,11 @@ a:hover {
 
 // Footer area
 .footer-content {
-  padding-top: 40px;
+  padding-top: 20px;
+  display: flex;
 
   &__left-group {
     width: 100%;
-    color: white;
     margin-bottom: 20px;
   }
 
@@ -197,17 +199,14 @@ a:hover {
   &__right-group {
     width: 100%;
     margin-bottom: 20px;
-
-    & .newsletter-form {
-      display: block;
-    }
   }
 }
 
 .footer-social {
+  display: none;
   width: 100%;
-  display: flex;
-  margin-top: 40px;
+  //display: flex;
+  margin-top: 20px;
   color: white;
 
   & .icons {
@@ -382,6 +381,7 @@ a:hover {
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 20px;
   margin-left: 15px;
   align-items: center;

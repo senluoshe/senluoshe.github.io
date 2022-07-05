@@ -1,0 +1,9 @@
+- name: bakumatsu
+  title: 幕末维新
+  cover: 'images/history/bakumatsu.png'
+- name: edo
+  title: 江户时代
+  cover: 'images/history/edo.jpeg'
+- name: sengoku
+  title: 战国时代
+  cover: 'images/history/sengoku.png'

@@ -3,6 +3,21 @@ layout: page
 title: History
 ---
 
-<div>
-Coming soon...
+<section class="hero">
+    <h1 class="hero__header">鉴古知今 学史明智</h1>
+    <div class="hero__subtitle">还原一个真实的日本</div>
+</section>
+
+<div class="gallery-container">
+    {% for article in site.history %}
+    <a href="{{article.url}}">
+        <div class="gallery-item">
+            <div class="gallery-item__image-block">
+                <img class="gallery-item__image" src="/{{ article.cover }}">
+            </div>
+            <p class="gallery-item__title">{{ article.title }}</p>
+            <p class="gallery-item__text">{{ article.death_poem }}</p>
+        </div>
+    </a>
+    {% endfor %}
 </div>
