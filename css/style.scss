@@ -3,6 +3,7 @@
 
 $primary-font: 'Songti SC';
 $heading-font: 'Songti SC', 'Prompt', sans-serif;
+$primary-color: #C30023;
 $bg-black: #1C1C1C;
 $bg-grey: #F8F9FA;
 $dark-blue: #1D3557;
@@ -58,6 +59,70 @@ a:hover {
   color: #c30023;
 }
 
+article {
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
+    margin-top: 45px;
+    border-bottom-color: $primary-color;
+  }
+
+  h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    border-left-color: $primary-color;
+  }
+
+  p {
+    margin-top: 20px;
+    line-height: 180%;
+    overflow-wrap: break-word;
+  }
+
+  img {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  em {
+    font-weight: 700;
+    font-style: normal;
+    background: linear-gradient(transparent 60%, #fff585 40%);
+  }
+
+  blockquote {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-image: url("/images/blockquote.webp");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 20px 17px;
+
+    & > p {
+      font-size: 16px;
+      line-height: 160%;
+      padding: 15px 15px 15px 40px;
+    }
+  }
+}
+
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -77,6 +142,12 @@ a:hover {
 .main-content {
   margin-top: 30px;
   flex: 1;
+}
+
+.article-wrapper {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dark-blue {
