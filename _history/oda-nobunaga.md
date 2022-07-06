@@ -1,11 +1,9 @@
 ---
 layout: article
-title: 织田信长
+title: 「伊達政宗」どんな人だった？功績から逸話まで70年の生涯を追う
 cover: images/history/oda_nobunaga.jpg
 death_poem: 人間五十年
 ---
-
-# 「伊達政宗」どんな人だった？功績から逸話まで70年の生涯を追う
 
 ## 伊達政宗って何をした人？
 
