@@ -29,10 +29,15 @@ url: "https://senluoshe.com" # the base hostname & protocol for your site, e.g. 
 twitter_username: senluoshe
 github_username:  senluoshe
 
+# Comments
+disqus:
+  - shortname: senluoshe
+
 # Build settings
-theme: minima
+#theme: senluo
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Collections
 collections:
