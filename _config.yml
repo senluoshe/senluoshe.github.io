@@ -23,7 +23,7 @@ author:
   name: 小森
   email: senluoshe@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-  历史做笔墨，描绘一幅日式清明上河图
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://senluoshe.com" # the base hostname & protocol for your site, e.g. http://example.com
 

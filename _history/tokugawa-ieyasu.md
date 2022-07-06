@@ -5,6 +5,8 @@ cover: assets/images/history/tokugawa_ieyasu.jpg
 death_poem: 先に行く、あとに残るも、同じこと
 ---
 
+# 德川家康 | 隐忍一生，终成霸业！每一位负重前行的人都应该读的德川幕府创业史 
+
 很多人可能不知道，德川家康（松平元康）在日本其实并不怎么受欢迎。
 
 当然也不是完全被讨厌，而是与织田信长、丰臣秀吉，或者说真田信繁、伊达政宗这些人比起来，无论在游戏还是影视剧等方面，人气总显得没那么高。
@@ -949,11 +951,7 @@ vs信雄联军最终与秀吉达成和解，家康将次子於义丸（之后的
 
 ## 大阪冬之阵
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/ibYA49rvyWkjcp1MibtD4d72iafTMF6xnjwg1d0F04cULhicQIsNF9ib6z3HzICUwsooBliblmZsYP4sicY6lyKCGAnXw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
-
-☝︎
-
-大阪冬之阵布阵图
+![大阪冬之阵布阵图](https://mmbiz.qpic.cn/mmbiz_png/ibYA49rvyWkjcp1MibtD4d72iafTMF6xnjwg1d0F04cULhicQIsNF9ib6z3HzICUwsooBliblmZsYP4sicY6lyKCGAnXw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 大坂之阵的导火索是「方广寺大佛殿钟铭事件」。
 
