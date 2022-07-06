@@ -39,6 +39,8 @@ senluo:
 disqus:
   shortname: senluoshe
 
+google_analytics: G-YJ11QR950Q
+
 # Build settings
 #theme: senluo
 plugins:
