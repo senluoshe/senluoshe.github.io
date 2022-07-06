@@ -1,7 +1,7 @@
 ---
-layout: article
+layout: post
 title: 德川家康 | 隐忍一生，终成霸业！每一位负重前行的人都应该读的德川幕府创业史
-cover: images/history/tokugawa_ieyasu.jpg
+cover: assets/images/history/tokugawa_ieyasu.jpg
 death_poem: 先に行く、あとに残るも、同じこと
 ---
 

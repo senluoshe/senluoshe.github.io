@@ -1,8 +1,9 @@
 ---
-layout: article
+layout: post
 title: 「伊達政宗」どんな人だった？功績から逸話まで70年の生涯を追う
-cover: images/history/oda_nobunaga.jpg
+cover: assets/images/history/oda_nobunaga.jpg
 death_poem: 人間五十年
+comments: true
 ---
 
 ## 伊達政宗って何をした人？
