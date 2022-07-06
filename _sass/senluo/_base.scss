@@ -230,7 +230,7 @@ table {
   border: 1px solid $table-border-color;
 
   tr {
-    &:nth-child(event) {
+    &:nth-child(even) {
       background-color: $table-zebra-color;
     }
   }
