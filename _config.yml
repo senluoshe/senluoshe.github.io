@@ -37,7 +37,7 @@ senluo:
 
 # Comments
 disqus:
-  - shortname: senluoshe
+  shortname: senluoshe
 
 # Build settings
 #theme: senluo
