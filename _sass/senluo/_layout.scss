@@ -7,6 +7,7 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  padding-top: 10px;
 }
 
 .site-title {
@@ -18,11 +19,6 @@
 
   @include media-query($on-palm) {
     padding-right: 45px;
-  }
-
-  &,
-  &:visited {
-    color: $site-title-color;
   }
 }
 
@@ -72,7 +68,6 @@
   }
 
   .page-link {
-    color: $text-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -119,6 +114,9 @@
 .site-footer {
   background-color: $footer-background-color;
   padding: $spacing-unit 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-heading {
@@ -142,56 +140,9 @@
   color: $brand-color;
 }
 
-.footer-col {
-  margin-bottom: $spacing-unit / 2;
-}
-
-.footer-col-1,
-.footer-col-2 {
-  width: calc(50% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-  width: calc(100% - (#{$spacing-unit} / 2));
-}
-
-@media screen and (min-width: $on-large) {
-  .footer-col-1 {
-    width: calc(35% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-2 {
-    width: calc(20% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: calc(45% - (#{$spacing-unit} / 2));
-  }
-}
-
-@media screen and (min-width: $on-medium) {
-  .footer-col-wrapper {
-    display: flex
-  }
-
-  .footer-col {
-    width: calc(100% - (#{$spacing-unit} / 2));
-    padding: 0 ($spacing-unit / 2);
-
-    &:first-child {
-      padding-right: $spacing-unit / 2;
-      padding-left: 0;
-    }
-
-    &:last-child {
-      padding-right: 0;
-      padding-left: $spacing-unit / 2;
-    }
-  }
-}
-
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap-reverse;
@@ -200,6 +151,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  &__img {
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px grey;
+    & img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   h1 {
@@ -214,6 +175,7 @@
   h2 {
     @include relative-font-size(1.5);
     font-weight: 400;
+    color: gray;
     @include media-query($on-palm) {
       @include relative-font-size(1.25);
     }
