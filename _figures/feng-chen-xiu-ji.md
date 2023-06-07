@@ -1,7 +1,7 @@
 ---
 title: 丰臣秀吉
 excerpt: 出身卑微狂飙逆袭的野心家
-avatar: /assets/images/figures/feng-chen-xiu-ji.jpeg
+avatar: /assets/images/figures/feng-chen-xiu-ji.jpg
 layout: figure
 ---
 

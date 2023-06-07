@@ -4,8 +4,6 @@ excerpt: 前半生励精图治，后半生风花雪月，最后命丧众道之�
 avatar: /assets/images/figures/da-nei-yi-long.avif
 ---
 
-> 
-
 在日本战国大名当中，能够留名于后世的家族，一般可分为 3 类：
 
   1. 一口气冲到历史前台的家族

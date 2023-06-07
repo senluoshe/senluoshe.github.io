@@ -9,7 +9,7 @@ layout: single
 {% endif %}
 
 {% if page.avatar %}
-    <img class="figure__avatar" src={{ page.avatar | relative_url }} alt={{ page.title | default: site.title }}
+    <div><img class="figure__avatar" src={{ page.avatar | relative_url }} alt={{ page.title | default: site.title }}</div>
 {% endif %}
 
 {{ content }}
