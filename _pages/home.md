@@ -11,8 +11,6 @@ excerpt: >
   万象森罗眼底收<br />
   <small>历史做笔墨，描绘日本社会的浮世百景</small>
 
-
-  
 feature_row:
   - image_path: /assets/images/zgwj-collection.jpg
     alt: "战国武将"

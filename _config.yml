@@ -38,6 +38,12 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : false # true, false (default)
 # words_per_minute         : 100
 
+analytics:
+  provider               : "google-gtag"
+  google:
+    tracking_id          : "G-YJ11QR950Q"
+    anonymize_ip         : false # default
+
 author:
   name                   : "微信公众号" # *name is a YAML reference pointing to the &anchor earlier
   avatar                 : "/assets/images/wx-qrcode.jpg"
