@@ -1,0 +1,15 @@
+---
+layout: single
+---
+
+{% if page.excerpt %}
+    <p class="figure__desc">
+        {{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}
+    </p>
+{% endif %}
+
+{% if page.avatar %}
+    <img class="figure__avatar" src={{ page.avatar | relative_url }} alt={{ page.title | default: site.title }}
+{% endif %}
+
+{{ content }}
