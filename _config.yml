@@ -35,7 +35,7 @@ repository               : "senluoshe/senluoshe.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 # words_per_minute         : 100
 
 analytics:
@@ -48,11 +48,12 @@ author:
   name                   : "微信公众号" # *name is a YAML reference pointing to the &anchor earlier
   avatar                 : "/assets/images/wx-qrcode.jpg"
   email                  : "senluoshe@qq.com"
-  bio                    : "扫码关注，获取更多学习资料"
+  bio                    : "扫码关注，了解更多历史知识"
   links:
     - label              : "QQ 群"
       icon               : "fab fa-fw fa-qq"
       url                : "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=G2vsuKpvsi6zWIlIU2i5l-ydDMVUTYu5&authKey=JXTCUKtYQR4lx8rNUPAZfkPMVz%2BSvfbeJ1Xa6x27O2z9IqNHfAwFmrPJRXTb42MG&noverify=0&group_code=723331277"
+
 # Reading Files
 include:
   - .htaccess
@@ -113,6 +114,9 @@ collections:
   events:
     output: true
     permalink: /:collection/:path/
+  briefs:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -153,10 +157,17 @@ defaults:
       layout: single
       read_time: false
       author_profile: false
-      share: true
-      comments: false
       sidebar:
         nav: "events"  
+      toc: true
+      toc_label: '目录'
+  # _events
+  - scope:
+      path: ""
+      type: briefs
+    values:
+      layout: single
+      author_profile: true
       toc: true
       toc_label: '目录'
 
@@ -167,8 +178,8 @@ sass:
 
 # Outputting
 # permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
 timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)

@@ -16,22 +16,131 @@ main:
 figures:
   - title: 室町时代 
   - title: 战国时代
+    url: /briefs/zhan-guo/
     children:
-      - title: 大内义龙
+      - title: 北条早云（伊势宗瑞）
+        url: /figures/bei-tiao-zao-yun/
+      - title: 大内义隆
         url: /figures/da-nei-yi-long/
+      - title: 斋藤道三
+        url: /figures/zhai-teng-dao-san/
+      - title: 织田信秀
+        url: /figures/zhi-tian-xin-xiu/
+      - title: 北条氏康
+        url: /figures/bei-tiao-shi-kang/
+      - title: 上杉谦信
+        url: /figures/shang-shan-qian-xin/
+      - title: 武田信玄
+        url: /figures/wu-tian-xin-xuan/
+      - title: 土田御前
+        url: /figures/tu-tian-yu-qian/
+      - title: 大政所
+        url: /figures/da-zheng-suo/
+      - title: 归蝶（浓姬）
+        url: /figures/gui-die/
   - title: 安土桃山时代
-    url: '/intro/'
+    url: /briefs/zhan-guo/#真正的战国织田信长出场
     children:
+      - title: 织田信长
+        url: /figures/zhi-tian-xin-chang/
       - title: 丰臣秀吉
         url: /figures/feng-chen-xiu-ji/
+      - title: 明智光秀
+        url: /figures/ming-zhi-guang-xiu/
+      - title: 柴田胜家
+        url: /figures/chai-tian-sheng-jia/
+      - title: 丹羽长秀
+        url: /figures/dan-yu-chang-xiu/
       - title: 浅井长政
         url: /figures/qian-jing-chang-zheng/
+      - title: 前田利家
+        url: /figures/qian-tian-li-jia/
+      - title: 伊达政宗
+        url: /figures/yi-da-zheng-zong/
+      - title: 宁宁
+        url: /figures/ning-ning/
   - title: 江户时代
+    url: /briefs/jiang-hu-mu-fu/
+    children:
+      - title: 德川家康（一）
+        url: /figures/de-chuan-jia-kang/
+      - title: 德川秀忠（二）
+        url: /figures/de-chuan-xiu-zhong/
+      - title: 德川家光（三）
+        url: /figures/de-chuan-jia-guang/
+      - title: 德川家纲（四）
+        url: /figures/de-chuan-jia-gang/
+      - title: 德川纲吉（五）
+        url: /figures/de-chuan-gang-ji/
+      - title: 德川家宣（六）
+        url: /figures/de-chuan-jia-xuan/
+      - title: 德川家继（七）
+        url: /figures/de-chuan-jia-ji/
+      - title: 德川吉宗（八）
+        url: /figures/de-chuan-ji-zong/
+      - title: 德川家重（九）
+        url: /figures/de-chuan-jia-zhong/
+      - title: 德川家治（十）
+        url: /figures/de-chuan-jia-zhi/
+      - title: 德川家齐（十一）
+        url: /figures/de-chuan-jia-qi/
+      - title: 德川家庆（十二）
+        url: /figures/de-chuan-jia-qing/
+      - title: 德川家定（十三）
+        url: /figures/de-chuan-jia-ding/
+      - title: 德川家茂（十四）
+        url: /figures/de-chuan-jia-mao/
+      - title: 德川庆喜（十五）
+        url: /figures/de-chuan-qing-xi/
+      - title: 井伊直弼
+        url: /figures/jing-yi-zhi-bi/
+      - title: 春日局
+        url: /figures/chun-ri-ju/
+  - title: 幕末维新
+    url: /briefs/ming-zhi-wei-xin/
+    children:
+      - title: 西乡隆盛
+        url: /figures/xi-xiang-long-sheng/
+      - title: 大久保利通
+        url: /figures/da-jiu-bao-li-tong/
+      - title: 木户孝允（桂小五郎）
+        url: /figures/mu-hu-xiao-yun/
+      - title: 坂本龙马
+        url: /figures/ban-ben-long-ma/
+      - title: 胜海舟
+        url: /figures/sheng-hai-zhou/
+      - title: 有村次左卫门
+        url: /figures/you-cun-ci-zuo-wei-men/
+      - title: 幕末四大人斩
+        url: /figures/mu-mo-si-da-ren-zhan/
+      - title: 岛津齐彬
+        url: /figures/dao-jin-qi-bin/
+      - title: 岛津久光
+        url: /figures/dao-jin-jiu-guang/
+      - title: 岛津忠义
+        url: /figures/dao-jin-zhong-yi/
+      - title: 吉田松陰
+        url: /figures/ji-tian-song-yin/
+      - title: 佐久間象山
+        url: /figures/zuo-jiu-jian-xiang-shan
+      - title: 板垣退助
+        url: /figures/ban-yuan-tui-zhu/
+      - title: 大隈重信
+        url: /figures/da-wei-zhong-xin/
+      - title: 福泽谕吉
+        url: /figures/fu-ze-yu-ji/
+      - title: 伊藤博文
+        url: /figures/yi-teng-bo-wen/
+      - title: 西乡从道
+        url: /figures/xi-xiang-cong-dao/
+      - title: 田中正造
+        url: /figures/tian-zhong-zheng-zao/
   - title: 明治时代
 
+
 events:
-  - title: 江户时代
-    url: '/intro/'
+  - title: 幕末维新
+    url: '/briefs/ming-zhi-wei-xin/'
     children:
       - title: 八月十八日政变
         url: /events/ba-yue-shi-ba-ri-zheng-bian
@@ -39,3 +148,5 @@ events:
         url: /events/chi-tian-wu-shi-jian
       - title: 禁门之变（哈御门之变）
         url: /events/jin-men-zhi-bian
+      - title: 由罗骚动
+        url: /events/you-luo-and-you-luo-sao-dong/
