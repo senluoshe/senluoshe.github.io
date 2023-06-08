@@ -8,8 +8,8 @@ layout: single
     </p>
 {% endif %}
 
-{% if page.avatar %}
-    <div><img class="figure__avatar" src={{ page.avatar | relative_url }} alt={{ page.title | default: site.title }}</div>
+{% if page.header.teaser %}
+    <div><img class="figure__avatar" src={{ page.header.teaser | relative_url }} alt={{ page.title | default: site.title }}</div>
 {% endif %}
 
 {{ content }}

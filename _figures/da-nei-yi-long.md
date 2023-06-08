@@ -1,7 +1,8 @@
 ---
 title: 大内义隆
 excerpt: 前半生励精图治，后半生风花雪月，最后命丧众道之爱？
-avatar: /assets/images/figures/da-nei-yi-long.avif
+header: 
+    teaser: /assets/images/figures/da-nei-yi-long.jpg
 ---
 
 在日本战国大名当中，能够留名于后世的家族，一般可分为 3 类：
@@ -401,3 +402,11 @@ avatar: /assets/images/figures/da-nei-yi-long.avif
 如果大内义隆的性格没有画风突变的话，说不定毛利元就也不会成为今天人们口中的那个毛利元就。
 
 后来，陶晴贤死于严岛之战，毛利元就在中国地方开启了他的「毛利王国」。
+
+ **完**
+
+一文读懂日本战国史！极简介绍  
+北条早云 | 伊势宗瑞，第一位战国大名，下克上鼻祖  
+德川家康 | 隐忍一生，终成霸业！每一位负重前行的人都应该读的德川幕府创业史  
+明智光秀为什么要发动本能寺之变？解密战国史上最大谜团！  
+

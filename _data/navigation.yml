@@ -7,21 +7,25 @@ main:
   - title: "年表"
     url: /timeline/
   - title: "人物"
-    url: /figures/da-nei-yi-long/
+    url: /figures/
   - title: "事件"
-    url: /events/jin-men-zhi-bian/
+    url: /events/
   - title: "资料"
     url: /materials/
 
 figures:
   - title: 室町时代 
+  - title: 战国时代
+    children:
+      - title: 大内义龙
+        url: /figures/da-nei-yi-long/
   - title: 安土桃山时代
     url: '/intro/'
     children:
-      - title: 大内义龙
-        url: /figures/da-nei-yi-long
       - title: 丰臣秀吉
-        url: /figures/feng-chen-xiu-ji
+        url: /figures/feng-chen-xiu-ji/
+      - title: 浅井长政
+        url: /figures/qian-jing-chang-zheng/
   - title: 江户时代
   - title: 明治时代
 
