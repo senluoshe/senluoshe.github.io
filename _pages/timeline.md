@@ -3,7 +3,10 @@ title: 日本历史年表
 permalink: /timeline/
 toc: true
 toc_label: 年代划分
-author: Weapp Timeline
+toc_sticky: true
+author_profile: false
+sidebar:
+  - image: /assets/images/timeline-weapp-qrcode.png
 ---
 
 ## 弥生时代
@@ -124,17 +127,17 @@ author: Weapp Timeline
 1543 | 葡萄牙商人在九州南部的种子岛登陆
 1549 | 弗朗西斯・扎比埃尔将基督教传入日本
 1561 | 第四次川中岛之战
-1571 | 织田信长火烧比壑山延历寺
-1573 | 织田信长放逐室町幕府第十五代将军足利义昭，室町幕府灭亡
+1571 | [织田信长](/figures/zhi-tian-xin-chang/)火烧比壑山延历寺
+1573 | [织田信长](/figures/zhi-tian-xin-chang/)放逐室町幕府第十五代将军足利义昭，室町幕府灭亡
 
 ## 安士桃山时代
 
-1582 | 本能寺之变
-1585 | 丰臣秀吉任关白
-1590 | 德川家康将领地迁移至关东地区，开始建造江户城堡
+1582 | [本能寺之变](/figures/ming-zhi-guang-xiu/)
+1585 | [丰臣秀吉](/figures/feng-chen-xiu-jiu/)任关白
+1590 | [德川家康](/figures/de-chuan-jia-kang/)将领地迁移至关东地区，开始建造江户城堡
 1592 | 文禄之役（丰臣秀吉攻朝鲜半岛）
 1597 | 庆长之役（丰臣秀吉攻朝鲜半岛）
-1598 | 丰臣秀吉病死，日本军队从朝鲜撤回
+1598 | [丰臣秀吉](/figures/feng-chen-xiu-ji/)病死，日本军队从朝鲜撤回
 1600 | 关原之战
 
 ## 江户时代
