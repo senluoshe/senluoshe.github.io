@@ -117,6 +117,7 @@ collections:
   briefs:
     output: true
     permalink: /:collection/:path/
+    sort_by: order
 
 # Defaults
 defaults:
@@ -161,7 +162,7 @@ defaults:
         nav: "events"  
       toc: true
       toc_label: '目录'
-  # _events
+  # _briefs
   - scope:
       path: ""
       type: briefs
